@@ -1,6 +1,6 @@
 let info = {
   name: "Behnam Vakili",
-  logo_name: "Behnam",
+  logo_name: "Behnam 2",
   flat_picture: require("./src/assets/pic2.jpg"),
   config: {
     use_cookies: true,
