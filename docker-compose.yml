@@ -3,7 +3,7 @@ version: "3.7"
 services:
   admin-backend:
     container_name: portfolio
-    image: behnamkvl/portfolio
+    image: hub.hamdocker.ir/behnamkvl/portfolio
     restart: on-failure
     expose:
       - 8080
@@ -12,7 +12,7 @@ services:
 
   nginx:
     container_name: nginx
-    image: behnamkvl/portfolionginx:1.19.0-alpine
+    image: hub.hamdocker.ir/behnamkvl/portfolionginx:1.19.0-alpine
     ports:
       - 80:80
     expose:
