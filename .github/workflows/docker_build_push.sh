@@ -14,14 +14,13 @@ cd $1
 # Build the  image
 #
 
+docker build -t "${REPOSITORY_NAME_NGINX}:latest" -f ./nginx/Dockerfile.nginx ./nginx
+
 docker build \
   -t "${REPOSITORY_NAME}:latest" \
   --label "built_at=$(date)" \
   --label "build_actor=${GITHUB_ACTOR}" \
   .
-
-docker build -t "${REPOSITORY_NAME_NGINX}:latest" -f ./nginx/Dockerfile.nginx ./nginx
-   
 
 if [ -z "${DOCKERHUB_TOKEN}" ]; then
   # Skip if secrets aren't populated -- they're only visible for actions running in the repo (not on forks)
