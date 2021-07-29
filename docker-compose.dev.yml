@@ -4,6 +4,9 @@ services:
   admin-backend:
     container_name: portfolio
     image: behnamkvl/portfolio
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: on-failure
     expose:
       - 8080
@@ -13,6 +16,9 @@ services:
   nginx:
     container_name: nginx
     image: behnamkvl/portfolio-nginx:1.19.0-alpine
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile.nginx
     ports:
       - 80:80
     expose:

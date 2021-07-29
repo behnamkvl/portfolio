@@ -20,6 +20,13 @@ docker build \
   --label "build_actor=${GITHUB_ACTOR}" \
   .
 
+docker build \
+  -t "behnamkvl/portfolio-nginx:1.19.0-alpine" \
+  --label "built_at=$(date)" \
+  --label "build_actor=${GITHUB_ACTOR}" \
+  ./nginx \
+  -f Dockerfile.nginx
+
 if [ -z "${DOCKERHUB_TOKEN}" ]; then
   # Skip if secrets aren't populated -- they're only visible for actions running in the repo (not on forks)
   echo "Skipping Docker push"
@@ -28,4 +35,5 @@ else
   docker logout
   docker login --username "${DOCKERHUB_USER}" --password "${DOCKERHUB_TOKEN}"
   docker push "${REPOSITORY_NAME}:latest"
+  docker push "behnamkvl/portfolio-nginx:1.19.0-alpine"
 fi
