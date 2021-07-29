@@ -10,21 +10,26 @@ ls $1
 echo "docker file path is ${1}"
 echo "docker tag is: ${REPOSITORY_NAME}:latest"
 cd $1
+echo "-------------------------"
+ls ./nginx
+echo "-------------------------"
 #
 # Build the  image
 #
+cd nginx
+docker build \
+  -t "behnamkvl/portfolionginx:1.19.0-alpine" \
+  --label "built_at=$(date)" \
+  --label "build_actor=${GITHUB_ACTOR}" \
+  -f Dockerfile.nginx 
 
+cd ..
 docker build \
   -t "${REPOSITORY_NAME}:latest" \
   --label "built_at=$(date)" \
   --label "build_actor=${GITHUB_ACTOR}" \
   .
 
-docker build \
-  -t "behnamkvl/portfolionginx:1.19.0-alpine" \
-  --label "built_at=$(date)" \
-  --label "build_actor=${GITHUB_ACTOR}" \
-  -f ./nginx/Dockerfile.nginx 
 
 if [ -z "${DOCKERHUB_TOKEN}" ]; then
   # Skip if secrets aren't populated -- they're only visible for actions running in the repo (not on forks)
