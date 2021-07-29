@@ -1,25 +1,27 @@
 <template>
   <div
-    :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
+    :class="{ 'home-back': !nightMode, 'bg-dark': nightMode }"
     class="pt-5 p-st"
+    
+    
   >
     <div
       class="container"
       data-aos="fade"
       data-aos-once="true"
       data-aos-duration="1000"
+      
     >
-      <div class="row align-items-center">
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-          <img :src="picture" />
-        </div>
+      <div class="row align-items-center" >
+
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            style="color: white"
+            >Behnam Vakili</span
           >
-          <div>
+          <div class="description">
             <p v-html="description"></p>
           </div>
           <div class="text-center pb-4">
@@ -52,6 +54,9 @@
               <i class="fa fa-file"></i>
             </button>
           </div>
+        </div>
+        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+          <img :src="picture" class="profile-pic"/>
         </div>
       </div>
     </div>
@@ -113,7 +118,7 @@ export default {
 
 img {
   max-width: 300px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   transform: rotateY(180deg);
 }
 
@@ -157,6 +162,20 @@ img {
 p {
   text-align: justify;
   font-weight: 400;
+}
+
+.home-back{
+  background-color:rgba(0,0,255,0.3);
+  background-image: url("https://www.portalzine.de/wp-content/uploads/sites/3/2016/09/particles2.jpg");
+}
+
+.profile-pic{
+border-radius: 8px;
+}
+
+.description{
+color: white;
+font-family: Helvetica;
 }
 
 /* LEAVES */

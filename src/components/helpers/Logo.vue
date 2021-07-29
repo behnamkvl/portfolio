@@ -31,14 +31,14 @@ export default {
 <style scoped>
 .logo-div:hover .logo-title-name {
   letter-spacing: 0px;
-  transition: 0.5s all;
+  transition: 0.1s all;
 }
 
 .logo-title-name {
   font-size: 35px;
   font-weight: 500;
   letter-spacing: 2px;
-  transition: 0.5s all;
+  transition: 0.1s all;
 }
 
 .logo-title-dot {

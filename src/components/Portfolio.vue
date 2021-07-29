@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="development">
+        <!-- <v-tab title="development">
           <br />
           <div class="row">
             <div
@@ -52,9 +52,9 @@
           <div class="text-center py-3" v-if="showBtn !== 'show less'">
             <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
           </div>
-        </v-tab>
+        </v-tab> -->
 
-        <v-tab title="design">
+        <v-tab>
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -307,7 +307,7 @@ export default {
 /deep/ .vue-tabs .nav-tabs > li.active > a {
   background: transparent;
   border: none;
-  transition: all 0.5s;
+  transition: all 0.1s;
   padding-right: 0;
   padding-left: 0;
   margin-right: 15px;
@@ -317,13 +317,13 @@ export default {
 /deep/ .vue-tabs .nav-tabs > li > a:hover {
   background: transparent;
   color: #cbcbcb;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 /deep/ .vue-tabs .nav-tabs > li > a {
   background: transparent;
   border: none;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 /deep/ .vue-tabs .nav-tabs > li > a:after {
@@ -338,13 +338,13 @@ export default {
 
 /deep/ .vue-tabs .nav-tabs > li.active > a:after {
   width: 100%;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 .design-img {
   width: 100%;
   border-radius: 15px;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 .dimg {
@@ -352,7 +352,7 @@ export default {
   border-radius: 15px;
 }
 .middle {
-  transition: all 0.5s;
+  transition: all 0.1s;
   opacity: 0;
   position: absolute;
   bottom: 0px;
@@ -405,7 +405,7 @@ export default {
 
 .badge {
   background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
+  transition: all 0.1s;
   font-weight: 500;
   font-size: 13px;
 }

@@ -107,7 +107,7 @@ export default {
 
 .g-img {
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 .g-img:hover {
   opacity: 0.7;
@@ -126,7 +126,7 @@ export default {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
-  transition: all 0.5s;
+  transition: all 0.1s;
   animation-name: modalOpen;
   animation-duration: 0.2s;
 }
@@ -195,7 +195,7 @@ export default {
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .closeModal {

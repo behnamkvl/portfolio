@@ -43,7 +43,7 @@
               'pgray-dark': nightMode,
               'text-light': nightMode,
             }"
-            style="transition-delay: 0.2s"
+            style="transition-delay: 0.1s"
           />
         </div>
 
@@ -64,7 +64,7 @@
               'pgray-dark': nightMode,
               'text-light': nightMode,
             }"
-            style="transition-delay: 0.4s"
+            style="transition-delay: 0.1s"
           />
         </div>
 
@@ -85,7 +85,7 @@
               'pgray-dark': nightMode,
               'text-light': nightMode,
             }"
-            style="transition-delay: 0.6s"
+            style="transition-delay: 0.1s"
           ></textarea>
         </div>
 
@@ -214,7 +214,7 @@ export default {
   border-radius: 7px;
   padding: 10px;
   width: 50%;
-  transition: all 1s;
+  transition: all 0.1s;
 }
 
 .btn {

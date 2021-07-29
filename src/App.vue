@@ -6,8 +6,8 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Recommendation :nightMode="nightMode" />
-      <Contact id="contact" :nightMode="nightMode" />
+      <!-- <Recommendation :nightMode="nightMode" /> -->
+      <!-- <Contact id="contact" :nightMode="nightMode" /> -->
       <Footer :nightMode="nightMode" />
     </div>
   </div>
@@ -116,9 +116,9 @@ export default {
 }
 
 .p-st {
-  transition: all 0.5s !important;
+  transition: all 0.1s !important;
 }
-
+transition
 /* To set scrollbar width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -241,12 +241,12 @@ export default {
 .tooltip[aria-hidden="true"] {
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.5s, visibility 0.5s;
+  transition: opacity 0.1s, visibility 0.1s;
 }
 
 .tooltip[aria-hidden="false"] {
   visibility: visible;
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: opacity 0.1s;
 }
 </style>

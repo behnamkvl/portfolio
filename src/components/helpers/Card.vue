@@ -126,12 +126,12 @@ div.img-div {
   border-radius: 7px;
   border: none;
   box-shadow: 1px 1px 12px rgb(233, 233, 233);
-  transition: all 0.5s;
+  transition: all 0.1s;
   height: 460px;
 }
 
 .pcard:hover {
-  transition: all 0.5s;
+  transition: all 0.1s;
   /* cursor: pointer; */
   box-shadow: 1px 1px 15px rgb(216, 216, 216);
 }
@@ -141,12 +141,12 @@ div.img-div {
   border: none;
   background-color: #30363a !important;
   /* box-shadow: 1px 1px 12px rgb(53, 53, 53); */
-  transition: all 0.5s;
+  transition: all 0.1s;
   height: 460px;
 }
 
 .pcard-dark:hover {
-  transition: all 0.5s;
+  transition: all 0.1s;
   /* cursor: pointer; */
   box-shadow: 1px 1px 12px rgb(53, 53, 53);
 }
@@ -178,7 +178,7 @@ div.img-div {
 
 .badge {
   background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
+  transition: all 0.1s;
   font-weight: 500;
   font-size: 13px;
 }

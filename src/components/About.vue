@@ -9,7 +9,6 @@
   >
     <div class="container">
       <div
-        class="text-center"
         data-aos="fade"
         data-aos-once="true"
         data-aos-duration="1000"
@@ -19,17 +18,25 @@
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
           >about me.</span
         >
+        <p 
+        class="about-me"
+        :class="{ pgray: !nightMode, 'text-light': nightMode }">I'm a Machine Learning Engineer with an extreme passion for learning.
+        Since graduation, I have worked on myself via various online courses to become acquainted with the technical concepts of data science and applied them through a few end-to-end projects. Finishing a highly informative machine learning internship program at Rahnema College was a confidence boost and helped me to better understand the data science problems. Currently, I am working on different projects in the area of Artificial Intelligence and trying to expand my knowledge more passionate than ever.
+        </p>
+      <button class="btn" onclick="window.open('https://drive.google.com/file/d/1Aj0oNxoCgvRXdKV64MNf6dabnpTvzDzs/view?usp=sharing','_blank')" ><i class="fa fa-download"></i>
+      Download CV
+      </button>
       </div>
       <hr
         width="50%"
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
       <div class="row">
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
-          <Timeline :data="education" :nightMode="nightMode" />
-        </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+        <div class="col-xl-12 col-bg-12 col-md-12 col-sm-12">
           <Timeline :data="experience" :nightMode="nightMode" />
+        </div>
+        <div class="col-xl-12 col-bg-12 col-md-12 col-sm-12">
+          <Timeline :data="education" :nightMode="nightMode" />
         </div>
       </div>
     </div>
@@ -53,11 +60,11 @@ export default {
   data() {
     return {
       education: {
-        title: "education",
+        title: "EDUCATION",
         data: info.education,
       },
       experience: {
-        title: "experiences",
+        title: "EMPLOYMENT",
         data: info.experience,
       },
     };
@@ -69,5 +76,34 @@ export default {
 .title {
   font-size: 30px;
   font-weight: 500;
+}
+
+.about-me{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #555;
+    text-align: left;
+}
+
+.btn {
+  background-color: #6d56c1;;
+  border-radius: 22px;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px 10px 15px;
+}
+
+.btn:hover {
+  background-color: #669db3ff;
+  border-color: #669db3ff;
+  color: white;
+}
+
+.btn:focus {
+  background-color: #669db3ff;
+  border-color: #669db3ff;
+  color: white;
 }
 </style>

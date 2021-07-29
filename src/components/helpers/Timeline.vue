@@ -17,7 +17,7 @@
             class="timeline m-0 pt-1"
             v-for="(e, idx) in data.data"
             :key="e.name"
-            :style="{ 'transition-delay': idx / 4.2 + 's' }"
+            :style="{ 'transition-delay': idx / 40.2 + 's' }"
             data-aos="fade-up"
             data-offset="10"
             data-aos-once="true"
@@ -71,11 +71,13 @@ export default {
 .title1 {
   font-size: 24px;
   font-weight: 500;
+  
 }
 
 .title2 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 550;
+  color: #6d56c1;
 }
 
 .title3 {
@@ -84,9 +86,10 @@ export default {
 }
 
 .badge {
-  background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
+  background-color: #6d56c1;
+  transition: all 0.1s;
   font-weight: 500;
+  color: white;
 }
 
 .date {
@@ -100,11 +103,11 @@ ul.timeline {
 }
 ul.timeline:before {
   content: " ";
-  background: #d4d9df;
+  background: #6d56c1;
   display: inline-block;
   position: absolute;
   left: 29px;
-  width: 2px;
+  width: 1px;
   height: 93%;
   margin-top: 20px;
   z-index: 400;
@@ -115,11 +118,11 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
   content: " ";
-  background: rgb(212, 149, 97);
+  background: rgb(255, 255, 255);
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 2px solid rgb(236, 159, 117);
+  border: 1px solid #6d56c1;
   left: 20px;
   width: 20px;
   height: 20px;

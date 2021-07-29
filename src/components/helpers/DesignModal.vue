@@ -104,12 +104,12 @@ body.modal-open {
 a {
   text-decoration: none;
   color: black;
-  transition: all 0.2s;
+  transition: all 0.1s;
   cursor: pointer;
 }
 
 a:hover {
-  transition: all 0.2s;
+  transition: all 0.1s;
   color: gray;
 }
 
@@ -125,7 +125,7 @@ a:hover {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  transition: opacity 0.5s ease;
+  transition: opacity 0.1s ease;
 }
 
 .modal-wrapper {
@@ -144,7 +144,7 @@ a:hover {
   margin: 0px auto;
   border-radius: 7px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   flex-direction: column;
   display: flex; /*added*/
 }
@@ -208,12 +208,12 @@ a:hover {
 
 .badge {
   background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
+  transition: all 0.1s;
   font-weight: 500;
 }
 
 .badge:hover {
-  transition: all 0.5s;
+  transition: all 0.1s;
   box-shadow: 2px 2px 5px rgb(179, 179, 179);
 }
 
