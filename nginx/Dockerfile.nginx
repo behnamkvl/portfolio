@@ -1,5 +1,19 @@
 FROM nginx:1.19.0
 
+# su root
+USER root
+RUN apt update && apt install snapd
+RUN snap install core
+RUN echo "test snap installation"
+RUN snap install hello-world
+RUN snap install core && snap refresh core
+RUN apt remove certbot
+RUN snap install --classic certbot
+RUN echo "test certbot"
+RUN ln -s /snap/bin/certbot /usr/bin/certbot
+
 RUN rm /etc/nginx/conf.d/default.conf
 EXPOSE 80
 COPY nginx.conf /etc/nginx/conf.d
+
+# ENTRYPOINT ["certbot", "--nginx"]
