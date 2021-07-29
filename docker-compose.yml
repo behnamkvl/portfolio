@@ -11,6 +11,7 @@ services:
       - "8080:8080"
     volumes:
       - static_volume:/usr/app/staticfiles
+      - well_known:/usr/app/.well-known/pki-validation
 
   nginx:
     container_name: nginx
@@ -23,6 +24,9 @@ services:
       - admin-backend
     volumes:
       - static_volume:/usr/app/staticfiles
+      - well_known:/usr/app/.well-known/pki-validation
+      
 
 volumes:
   static_volume:
+  well_known:
