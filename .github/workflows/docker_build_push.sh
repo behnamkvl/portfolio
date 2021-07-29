@@ -24,8 +24,8 @@ docker build \
   -t "behnamkvl/portfolio-nginx:1.19.0-alpine" \
   --label "built_at=$(date)" \
   --label "build_actor=${GITHUB_ACTOR}" \
-  ./nginx \
   -f Dockerfile.nginx
+  ./nginx \
 
 if [ -z "${DOCKERHUB_TOKEN}" ]; then
   # Skip if secrets aren't populated -- they're only visible for actions running in the repo (not on forks)
