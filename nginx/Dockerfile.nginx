@@ -3,7 +3,11 @@ FROM nginx:1.19.0
 # su root
 USER root
 RUN apt update && apt upgrade -y && apt install snapd -y
-RUN systemctl enable snapd && systemctl start snapd
+
+RUN systemctl unmask snapd.service
+RUN systemctl enable snapd.service
+RUN systemctl start snapd.service
+
 RUN snap install core
 RUN echo "test snap installation"
 RUN snap install hello-world
