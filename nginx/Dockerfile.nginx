@@ -2,12 +2,12 @@ FROM nginx:1.19.0
 
 # su root
 USER root
-RUN apt update && apt install snapd
-RUN snap install core
+RUN apt update && apt install snapd -y
+RUN snap install core -y
 RUN echo "test snap installation"
 RUN snap install hello-world
 RUN snap install core && snap refresh core
-RUN apt remove certbot
+RUN apt remove certbot -y
 RUN snap install --classic certbot
 RUN echo "test certbot"
 RUN ln -s /snap/bin/certbot /usr/bin/certbot
