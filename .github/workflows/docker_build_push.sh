@@ -8,6 +8,7 @@ ls $1
 # SHA=$(git rev-parse HEAD)
 
 echo "docker file path is ${1}"
+echo "docker tag is: ${REPOSITORY_NAME}:latest"
 cd $1
 #
 # Build the  image
