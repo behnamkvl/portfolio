@@ -14,7 +14,6 @@ cd $1
 #
 
 docker build \
-  -t "${REPOSITORY_NAME}:1" \
   -t "${REPOSITORY_NAME}:latest" \
   --label "built_at=$(date)" \
   --label "build_actor=${GITHUB_ACTOR}" \
@@ -27,6 +26,5 @@ else
   # Login and push
   docker logout
   docker login --username "${DOCKERHUB_USER}" --password "${DOCKERHUB_TOKEN}"
-  docker push "${REPOSITORY_NAME}:1"
   docker push "${REPOSITORY_NAME}:latest"
 fi
