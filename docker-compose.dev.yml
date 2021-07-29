@@ -15,7 +15,7 @@ services:
 
   nginx:
     container_name: nginx
-    image: behnamkvl/portfolionginx:1.19.0-alpine
+    image: behnamkvl/portfolionginx
     build:
       context: ./nginx
       dockerfile: Dockerfile.nginx

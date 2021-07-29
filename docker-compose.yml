@@ -12,7 +12,7 @@ services:
 
   nginx:
     container_name: nginx
-    image: hub.hamdocker.ir/behnamkvl/portfolionginx:1.19.0-alpine
+    image: hub.hamdocker.ir/behnamkvl/portfolionginx
     ports:
       - 80:80
     expose:

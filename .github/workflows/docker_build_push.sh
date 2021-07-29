@@ -20,7 +20,7 @@ docker build \
   --label "build_actor=${GITHUB_ACTOR}" \
   .
 
-docker build -t "behnamkvl/portfolionginx:1.19.0-alpine" -f ./nginx/Dockerfile.nginx ./nginx
+docker build -t "${REPOSITORY_NAME_NGINX}:latest" -f ./nginx/Dockerfile.nginx ./nginx
    
 
 if [ -z "${DOCKERHUB_TOKEN}" ]; then
@@ -31,5 +31,5 @@ else
   docker logout
   docker login --username "${DOCKERHUB_USER}" --password "${DOCKERHUB_TOKEN}"
   docker push "${REPOSITORY_NAME}:latest"
-  docker push "behnamkvl/portfolio-nginx:1.19.0-alpine"
+  docker push "${REPOSITORY_NAME_NGINX}:latest"
 fi
