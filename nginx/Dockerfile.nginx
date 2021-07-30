@@ -2,9 +2,9 @@ FROM nginx:1.19.0
 
 # su root
 USER root
-RUN apt-get update && apt-get install certbot -y && \
-    apt-get install python3-certbot-nginx -y && \
-    nginx -t && nginx -s reload
+RUN apt-get update && apt-get install certbot -y 
+RUN apt-get update && apt-get install certbot -y
+RUN nginx -t && nginx -s reload
 
 RUN rm /etc/nginx/conf.d/default.conf
 EXPOSE 80
