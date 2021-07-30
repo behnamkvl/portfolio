@@ -1,5 +1,5 @@
 # We run the command every day at noon. The command checks to see if the certificate on the server will expire within the next 30 days, and renews it if so. The --quiet directive tells certbot not to generate output.
-# * * * * * /usr/bin/certbot renew 
+0 12 * * * /usr/bin/certbot renew --quiet
 
 * * * * * root date >/proc/1/fd/1 2>/proc/1/fd/2
 
