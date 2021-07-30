@@ -207,9 +207,10 @@ a:hover {
 }
 
 .badge {
-  background-color: rgb(211, 227, 233);
+  background-color: #6d56c1;
   transition: all 0.1s;
   font-weight: 500;
+  color: white;
 }
 
 .badge:hover {
@@ -218,19 +219,19 @@ a:hover {
 }
 
 .btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+  border-color: #6d56c1;
+  color: #6d56c1;
 }
 
 .btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #6d56c1;
+  border-color: #6d56c1;
   color: white;
 }
 
 .btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #6d56c1;
+  border-color: #6d56c1;
   color: white;
 }
 

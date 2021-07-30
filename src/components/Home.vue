@@ -139,19 +139,19 @@ img {
 }
 
 .btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+  border-color: #6d56c1;
+  color: #6d56c1;
 }
 
 .btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #6d56c1;
+  border-color: #6d56c1;
   color: white;
 }
 
 .btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #6d56c1;
+  border-color: #6d56c1;
   color: white;
 }
 
@@ -165,8 +165,8 @@ p {
 }
 
 .home-back{
-  background-color:rgba(0,0,255,0.3);
-  background-image: url("https://www.portalzine.de/wp-content/uploads/sites/3/2016/09/particles2.jpg");
+  background-color:rgba(255, 0, 255, 0.3);
+  background-image: url("../assets/background/1.webp");
 }
 
 .profile-pic{

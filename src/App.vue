@@ -100,15 +100,15 @@ export default {
 }
 
 .pgray {
-  color: #535a5e;
+  color: #5c535e;
 }
 
 .pblue {
-  color: #669db3ff;
+  color: #6d56c1;
 }
 
 .bg-dark2 {
-  background-color: #262c30 !important;
+  background-color: #30262f !important;
 }
 
 .text-light {
@@ -149,7 +149,7 @@ transition
 }
 
 .tooltip .tooltip-inner {
-  background: rgb(212, 149, 97);
+  background: #6d56c1;
   color: white;
   border-radius: 8px;
   font-size: 10px;
@@ -162,7 +162,7 @@ transition
   border-style: solid;
   position: absolute;
   margin: 5px;
-  border-color: rgb(212, 149, 97);
+  border-color: #6d56c1;
   z-index: 1;
 }
 

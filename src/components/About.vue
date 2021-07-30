@@ -106,14 +106,14 @@ export default {
 }
 
 .btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #6d56c1;
+  border-color: #6d56c1;
   color: white;
 }
 
 .btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #6d56c1;
+  border-color: #6d56c1;
   color: white;
 }
 </style>
