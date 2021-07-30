@@ -1,0 +1,6 @@
+# We run the command every day at noon. The command checks to see if the certificate on the server will expire within the next 30 days, and renews it if so. The --quiet directive tells certbot not to generate output.
+# * * * * * /usr/bin/certbot renew 
+
+* * * * * root date >/proc/1/fd/1 2>/proc/1/fd/2
+
+# Don't remove the empty line at the end of this file. It is required to run the cron job

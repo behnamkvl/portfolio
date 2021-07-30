@@ -3,11 +3,27 @@ FROM nginx:1.19.0
 RUN rm /etc/nginx/conf.d/default.conf
 EXPOSE 80
 EXPOSE 443
+COPY ./letsencrypt /etc
 COPY nginx.conf /etc/nginx/conf.d
 
 # su root
 USER root
-RUN apt-get update && apt-get install nano -y
+RUN apt-get update && apt-get install nano cron -y
 RUN apt-get install certbot -y
 RUN apt-get install python3-certbot-nginx -y
-COPY ./letsencrypt /etc
+
+
+# Add crontab file in the cron directory
+ADD crontab /etc/cron.d/hello-cron
+# Give execution rights on the cron job
+RUN chmod 0644 /etc/cron.d/hello-cron
+# Create the log file to be able to run tail
+RUN touch /var/log/cron.log
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+# Run the command on container startup
+CMD cron && tail -f /var/log/cron.log
