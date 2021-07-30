@@ -8,8 +8,7 @@ COPY nginx.conf /etc/nginx/conf.d
 USER root
 RUN apt-get update && apt-get install certbot -y
 RUN apt-get install python3-certbot-nginx -y
-# RUN nginx -t && nginx -s reload
-
+RUN apt-get install ufw nano -y
 
 
 # ENTRYPOINT ["certbot", "--nginx"] certbot --nginx -d behnamkvl.me -d www.behnamkvl.me
