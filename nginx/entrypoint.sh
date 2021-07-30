@@ -6,3 +6,5 @@ env >> /etc/environment
 echo "starting cron jobs container!"
 echo "$@"
 exec "$@"
+
+certbot --nginx -d behnamkvl.me -d www.behnamkvl.me -n --agree-tos -m behnam.vr@gmail.com
