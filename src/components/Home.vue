@@ -35,17 +35,17 @@
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('github')"
-              v-tooltip.bottom="'GitHub'"
+              v-tooltip.bottom="'GitLab'"
             >
-              <i class="fab fa-github"></i>
+              <i class="fab fa-gitlab"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
               v-tooltip.bottom="'AngelList'"
             >
               <i class="fab fa-angellist"></i>
-            </button>
+            </button> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"

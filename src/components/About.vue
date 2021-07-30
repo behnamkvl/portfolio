@@ -23,7 +23,7 @@
         :class="{ pgray: !nightMode, 'text-light': nightMode }">I'm a Machine Learning Engineer with an extreme passion for learning.
         Since graduation, I have worked on myself via various online courses to become acquainted with the technical concepts of data science and applied them through a few end-to-end projects. Finishing a highly informative machine learning internship program at Rahnema College was a confidence boost and helped me to better understand the data science problems. Currently, I am working on different projects in the area of Artificial Intelligence and trying to expand my knowledge more passionate than ever.
         </p>
-      <button class="btn" onclick="window.open('https://drive.google.com/file/d/1Aj0oNxoCgvRXdKV64MNf6dabnpTvzDzs/view?usp=sharing','_blank')" ><i class="fa fa-download"></i>
+      <button class="btn" @click="open('resume')" ><i class="fa fa-download"></i>
       Download CV
       </button>
       </div>
@@ -67,7 +67,17 @@ export default {
         title: "EMPLOYMENT",
         data: info.experience,
       },
+      resume: info.links.resume
     };
+  },
+  methods: {
+    open(link) {
+      switch (link) {
+        case "resume":
+          window.open(this.resume, "_blank");
+          break;
+      }
+    },
   },
 };
 </script>

@@ -1,6 +1,6 @@
 let info = {
   name: "Behnam Vakili",
-  logo_name: "Behnam 2",
+  logo_name: "Behnam",
   flat_picture: require("./src/assets/pic2.jpg"),
   config: {
     use_cookies: true,
@@ -11,11 +11,11 @@ let info = {
   description:
     "Full-Stack Developer, Machine Learning Engineer",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
+    linkedin: "https://linkedin.com/in/behnam-vakili/",
+    github: "https://gitlab.com/behnam.vr",
+    angellist: "",
     resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+      "https://drive.google.com/file/d/1TszfRTerW_mfVNmJ1H4-_WtZCqYSPLqq/view?usp=sharing"
   },
   experience: [
     {
