@@ -15,7 +15,7 @@ let info = {
     github: "https://gitlab.com/behnam.vr",
     angellist: "",
     resume:
-      "https://drive.google.com/file/d/1TszfRTerW_mfVNmJ1H4-_WtZCqYSPLqq/view?usp=sharing"
+      "https://github.com/behnamkvl/resume/raw/main/resume-Vakili.pdf"
   },
   experience: [
     {
