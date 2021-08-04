@@ -220,7 +220,30 @@ let info = {
       visit: "https://gitlab.com/behnam.vr/image-captioning",
       description:
         "Udacity Computer Vision Nanodegree Image Captioning Project. It contains a CNN Encoder and a RNN Decoder to generate captions for input images."
-    }
+    },
+    {
+      name: "Crack Segmentation",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/crack/1.png")
+        },
+        {
+          img: require("./src/assets/portfolio/crack/2.png")
+        },
+        {
+          img: require("./src/assets/portfolio/crack/3.png")
+        },
+        {
+          img: require("./src/assets/portfolio/crack/4.png")
+        }
+      ],
+      technologies: ["OpenCV", "Pytorch", "U-Net", "Deep Learning"],
+      category: "Algorithm",
+      date: "Sep, 2019 - Dec  , 2019",
+      github: "",
+      visit: "",
+      description: "Among all the early signs of potential damage in infrastructure systems, formation of cracks is a critical one because it is directly related to the structural capacity and could significantly affect the serviceability of the infrastructure. In this project I trained a U-Net model for crack segmentation using EdmCrack600 dataset."
+    },
   ],
   portfolio_design: [
     {

@@ -104,9 +104,9 @@
               />
             </div>
           </div>
-          <!-- <div class="text-center py-3" v-if="showBtn !== 'show less'">
+          <div class="text-center py-3" v-if="showBtn !== 'show less'">
             <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
-          </div> -->
+          </div>
         </v-tab>
 
       </vue-tabs>
