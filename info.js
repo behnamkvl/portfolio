@@ -126,139 +126,103 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Music Recommender",
+      name: "Epicardium Segmentation",
       pictures: [
         {
-          img: require("./src/assets/portfolio/recommender/1_MnedC576EFf7dfeKmPBkiQ.png")
+          img: require("./src/assets/portfolio/mri/4.png")
         },
         {
-          img: require("./src/assets/portfolio/recommender/1.png")
+          img: require("./src/assets/portfolio/mri/5.png")
         },
         {
-          img: require("./src/assets/portfolio/recommender/2.png")
+          img: require("./src/assets/portfolio/mri/3.png")
         },
         {
-          img: require("./src/assets/portfolio/recommender/4.png")
+          img: require("./src/assets/portfolio/mri/1.png")
         }
       ],
-      technologies: ["scikit-learn", "Flask", "MongoDB", "Recommender Systems"],
+      technologies: ["OpenCV", "Pytorch", "U-Net", "Deep Learning"],
       category: "Website",
       date: "Sep, 2019 - Dec  , 2019",
-      github: "https://gitlab.com/behnam.vr/music_playlist_recommender_system",
-      visit: "https://gitlab.com/behnam.vr/music_playlist_recommender_system",
-      description: "In this project we implemented a music playlist recommender system using Beeptunes (a large digital music store in Iran) dataset as the final project for Rahnema College’s internship program."
+      github: "https://gitlab.com/behnam.vr/unet_mri-segmentation",
+      visit: "https://gitlab.com/behnam.vr/unet_mri-segmentation",
+      description: "Cardiovascular magnetic resonance (CMR) imaging is a standard imaging modality for assessing cardiovascular diseases (CVDs). Here we demonstrate an automated analysis method for CMR images, which is based on a convolutional network (U-Net). The network is trained and evaluated on a large-scale dataset from the UK Biobank, consisting of 4,875 subjects with 93,500 pixel-wise annotated images.The performance of the method has been evaluated using a number of technical metrics, including the Dice metric, mean contour distance and Hausdorff distance."
     },
     {
-      name: "Music Recommender",
+      name: "Monte Carlo simulation",
       pictures: [
         {
-          img: require("./src/assets/portfolio/recommender/1_MnedC576EFf7dfeKmPBkiQ.png")
+          img: require("./src/assets/portfolio/monte-carlo/city.png")
         },
         {
-          img: require("./src/assets/portfolio/recommender/1.png")
+          img: require("./src/assets/portfolio/monte-carlo/2.png")
         },
         {
-          img: require("./src/assets/portfolio/recommender/2.png")
+          img: require("./src/assets/portfolio/monte-carlo/11.jpg")
         },
         {
-          img: require("./src/assets/portfolio/recommender/4.png")
+          img: require("./src/assets/portfolio/monte-carlo/12.jpg")
+        },
+        {
+          img: require("./src/assets/portfolio/monte-carlo/13.jpg")
+        },
+        {
+          img: require("./src/assets/portfolio/monte-carlo/14.jpg")
         }
       ],
-      technologies: ["scikit-learn", "Flask", "MongoDB", "Recommender Systems"],
+      technologies: ["scikit-learn", "python", "pandas"],
       category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://gitlab.com/behnam.vr/music_playlist_recommender_system",
-      visit: "https://gitlab.com/behnam.vr/music_playlist_recommender_system",
-      description: "In this project we implemented a music playlist recommender system using Beeptunes (a large digital music store in Iran) dataset as the final project for Rahnema College’s internship program."
+      date: "Sep, 2019 - Oct  , 2019",
+      github: "https://gitlab.com/behnam.vr/monte-carlo-simulation-snapbox",
+      visit: "https://gitlab.com/behnam.vr/monte-carlo-simulation-snapbox",
+      description: "Assume a city with following dimensions, total population, population density ratio between central and non-central regions, locations of three stores and the price formula for each point in the city with respect to its distance to each store, find the total cost of orders in the city, and optimum location for the next store to reduce the total costs."
     },
     {
-      name: "Sewer Defect Detection",
+      name: "NLP Assignment",
       pictures: [
         {
-          img: require("./src/assets/portfolio/yolov/sewerpipe.jpg")
+          img: require("./src/assets/portfolio/nlp/1.png")
         },
         {
-          img: require("./src/assets/portfolio/yolov/5.jpg")
+          img: require("./src/assets/portfolio/nlp/2.png")
         },
         {
-          img: require("./src/assets/portfolio/yolov/2.png")
+          img: require("./src/assets/portfolio/nlp/3.png")
         },
         {
-          img: require("./src/assets/portfolio/yolov/3.png")
-        },
-        {
-          img: require("./src/assets/portfolio/yolov/4.png")
+          img: require("./src/assets/portfolio/nlp/4.png")
         }
       ],
-      technologies: ["Computer Vision", "OpenCV", "YOLOV3", "Pytorch", "PyQt5"],
+      technologies: ["NLTK", "NLP", "Pytorch"],
       category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
+      date: "Sept, 2019 - Oct, 2019",
       github:
-        "https://gitlab.com/behnam.vr/add_YOLOV3",
-      visit: "https://gitlab.com/behnam.vr/add_YOLOV3",
+        "https://gitlab.com/behnam.vr/yapaitek-assignment",
+      visit: "https://gitlab.com/behnam.vr/yapaitek-assignment",
       description:
-        "Sewer Defect Detection detects two kinds of defects in closed-circuit television videos. This tool gets the video file and required information to prepare the report, from the user, then using YOLOV3 algorithm it finds the type of defects and their location. "
+        "This project contains some data analysis and NLP methods implemented on the telegram posts of betasahm1 channel since 2019-01-01 till 2020-04-24."
+    },
+    {
+      name: "Image Captioning",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/image-captioning/1.png")
+        },
+        {
+          img: require("./src/assets/portfolio/image-captioning/2.png")
+        }
+      ],
+      technologies: ["Computer Vision", "OpenCV", "Pytorch"],
+      category: "Algorithm",
+      date: "Jan, 2019 - Mar, 2019",
+      github:
+        "https://gitlab.com/behnam.vr/image-captioning",
+      visit: "https://gitlab.com/behnam.vr/image-captioning",
+      description:
+        "Udacity Computer Vision Nanodegree Image Captioning Project. It contains a CNN Encoder and a RNN Decoder to generate captions for input images."
     }
   ],
   portfolio_design: [
-    {
-      name: "Sewer Defect Detection",
-      title: "Sewer Defect Detection",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/yolov/5.jpg"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/portfolio/yolov/2.png"),
-          title: "Mockups 2"
-        },
-        {
-          img: require("./src/assets/portfolio/yolov/3.png"),
-          title: "Mockups 2"
-        },
-        {
-          img: require("./src/assets/portfolio/yolov/4.png"),
-          title: "Mockups 2"
-        }
-      ],
-      technologies: ["OpenCV", "YOLOV3", "Pytorch"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
-      description:
-        "Sewer Defect Detection detects two kinds of defects in closed-circuit television videos. This tool gets the video file and required information to prepare the report, from the user, then using YOLOV3 algorithm it finds the type of defects and their location."
-    },
-    {
-      name: "Music Recommender System",
-      title: "Music Recommender System",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/recommender/1_MnedC576EFf7dfeKmPBkiQ.png"),
-          title: "Moodboard"
-        },
-        {
-          img: require("./src/assets/portfolio/recommender/1.png"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/portfolio/recommender/2.png"),
-          title: "Mockups 2"
-        },
-        {
-          img: require("./src/assets/portfolio/recommender/4.png"),
-          title: "Mockups 2"
-        }
-      ],
-      technologies: ["scikit-learn", "Flask", "MongoDB"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
-      description:
-        "In this project we implemented a music playlist recommender system using Beeptunes (a large digital music store in Iran) dataset as the final project for Rahnema College’s internship program."
-    },
     {
       name: "Dashboard Design",
       title: "Dashboard Design",
@@ -287,10 +251,68 @@ let info = {
       technologies: ["Django", "Vue.js", "Swagger"],
       category: "Visual Design",
       github: "",
-      date: "May, 2020 - Jun, 2020",
+      date: "July, 2021 - Aug, 2021",
       visit: "",
       description:
         "Implementing data analysis dashboard including front-end, back-end, CI/CD pipeline and also customizing Apache Superset to meet the marketing team needs."
+    },
+    {
+      name: "Sewer Defect Detection",
+      title: "Sewer Defect Detection",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/yolov/5.jpg"),
+          title: "Two kinds of common defects in sewer pipes."
+        },
+        {
+          img: require("./src/assets/portfolio/yolov/2.png"),
+          title: "The user uploads the video information."
+        },
+        {
+          img: require("./src/assets/portfolio/yolov/3.png"),
+          title: "Live video analysis."
+        },
+        {
+          img: require("./src/assets/portfolio/yolov/4.png"),
+          title: "Report."
+        }
+      ],
+      technologies: ["OpenCV", "YOLOV3", "Pytorch"],
+      category: "Algorithm",
+      github: "",
+      date: "May, 2020 - July, 2020",
+      visit: "",
+      description:
+        "Sewer Defect Detection detects two kinds of defects in closed-circuit television videos. This tool gets the video file and required information to prepare the report, from the user, then using YOLOV3 algorithm it finds the type of defects and their location."
+    },
+    {
+      name: "Music Recommender System",
+      title: "Music Recommender System",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/recommender/1_MnedC576EFf7dfeKmPBkiQ.png"),
+          title: ""
+        },
+        {
+          img: require("./src/assets/portfolio/recommender/1.png"),
+          title: "Metrics"
+        },
+        {
+          img: require("./src/assets/portfolio/recommender/2.png"),
+          title: "Endpoints"
+        },
+        {
+          img: require("./src/assets/portfolio/recommender/4.png"),
+          title: "Example"
+        }
+      ],
+      technologies: ["scikit-learn", "Flask", "MongoDB"],
+      category: "Algorithm",
+      github: "",
+      date: "Feb, 2020 - Mar, 2020",
+      visit: "",
+      description:
+        "In this project we implemented a music playlist recommender system using Beeptunes (a large digital music store in Iran) dataset as the final project for Rahnema College’s internship program."
     }
   ],
   recommendations: [

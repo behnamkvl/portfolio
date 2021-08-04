@@ -40,6 +40,7 @@
             <div class="pb-1 bheight">
               <span
                 class="badge mr-2 mb-2"
+                style="color: #fff"
                 v-for="tech in portfolio.technologies"
                 :key="tech"
                 :class="{ 'bg-dark4': nightMode }"
@@ -62,7 +63,7 @@
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
             <button class="btn w-25 mr-3" @click="open(portfolio.github)">
-              github
+              GitLab
             </button>
             <button class="btn w-25" @click="$emit('close')">close</button>
           </div>

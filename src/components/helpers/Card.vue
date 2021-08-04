@@ -51,7 +51,7 @@
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
-            visit website
+            visit repository
           </button>
         </div>
       </div>
