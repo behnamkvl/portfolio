@@ -20,7 +20,7 @@
         >
         <p 
         class="about-me"
-        :class="{ pgray: !nightMode, 'text-light': nightMode }">I'm a Machine Learning/Data Engineer with an extreme passion for learning.
+        :class="{ pgray: !nightMode, 'text-light': nightMode }">I'm a Data Scientist/Engineer with an extreme passion for learning.
 Since graduation, I have worked on myself via various online courses to become acquainted with the technical concepts of data science and applied them through a few end-to-end projects. Finishing a highly informative machine learning internship program at Rahnema College was a confidence boost and helped me to better understand the data science problems. Besides ML, I have developed a good set of skills in my last job experiences including system design and DevOps that suit me well for management and implementation of projects from concept to completion.</p>
       <button class="btn" @click="open('resume')" ><i class="fa fa-download"></i>
       Download CV
