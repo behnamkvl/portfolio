@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "Full-Stack Developer, Machine Learning Engineer",
+    "Data Engineer, Machine Learning Engineer",
   links: {
     linkedin: "https://linkedin.com/in/behnam-vakili/",
     github: "https://gitlab.com/behnam.vr",
@@ -22,10 +22,10 @@ let info = {
       name: "eBuyNow",
       place: "Victoria, Canada (remote)",
       date: "Oct, 2020 - Present",
-      position: "Full-Stack Developer",
+      position: "Data Engineer/Full-Stack Developer",
       description:
         "Worked as a full stack developer, implementing various features for dashboards, designing event-driven system to get, analyze and store data, deploying variuos applications on the cloud.",
-      skills: ["AWS", "Django", "Docker", "Python", "Vue.js", "Apache Kafka", "NGINX", "CI/CD"]
+      skills: ["AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
     },
     {
       name: "Sanjagh",
