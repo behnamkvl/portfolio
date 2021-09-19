@@ -22,7 +22,7 @@ let info = {
       name: "eBuyNow",
       place: "Victoria, Canada (remote)",
       date: "Oct, 2020 - Present",
-      position: "Data Engineer/Full-Stack Developer",
+      position: "Data Engineer",
       description:
         "Worked as a full stack developer, implementing various features for dashboards, designing event-driven system to get, analyze and store data, deploying variuos applications on the cloud.",
       skills: ["AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
