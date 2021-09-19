@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "Data Engineer, Machine Learning Engineer",
+    "Data Engineer",
   links: {
     linkedin: "https://linkedin.com/in/behnam-vakili/",
     github: "https://gitlab.com/behnam.vr",
@@ -25,7 +25,7 @@ let info = {
       position: "Data Engineer",
       description:
         "Worked as a full stack developer, implementing various features for dashboards, designing event-driven system to get, analyze and store data, deploying variuos applications on the cloud.",
-      skills: ["AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
+      skills: ["ETL", "AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
     },
     {
       name: "Sanjagh",
@@ -89,14 +89,11 @@ let info = {
       icon: "fa fa-code"
     },
     {
-      title: "data frameworks",
+      title: "ETL frameworks",
       info: [
-        "Pytorch",
-        "Keras",
-        "scikit-learn",
-        "OpenCV",
-        "NLTK",
-        "Apache Kafka",
+        "AWS Glue",
+        "Apache Airflow",
+        "Spark",
       ],
       icon: "fa fa-cubes"
     },
@@ -107,7 +104,7 @@ let info = {
     },
     {
       title: "databases",
-      info: ["MongoDB", "PostgreSQL", "Neo4j"],
+      info: ["AWS Redshift", "MongoDB", "PostgreSQL", "Neo4j"],
       icon: "fa fa-database"
     },
     {
@@ -115,7 +112,6 @@ let info = {
       info: [
         "Ubuntu",
         "Windows",
-        "Scrum",
         "JIRA",
         "Bitbucket",
         "AWS",
