@@ -19,19 +19,28 @@ let info = {
   },
   experience: [
     {
-      name: "eBuyNow",
-      place: "Victoria, Canada (remote)",
-      date: "Oct, 2020 - Present",
+      name: "Datrick",
+      place: "Istanbul, Turkey",
+      date: "Apr, 2021 - Present",
       position: "Data Engineer",
       description:
-        "Worked as a full stack developer, implementing various features for dashboards, designing event-driven system to get, analyze and store data, deploying variuos applications on the cloud.",
+        "Implemented ETL pipelines using Apache Airflow and GCP.",
+      skills: ["ETL", "GCP", "BigQuery", "Apache Airflow"]
+    },
+    {
+      name: "eBuyNow",
+      place: "Victoria, Canada (remote)",
+      date: "Jan, 2020 - Present",
+      position: "Data Engineer",
+      description:
+        "Worked as a Data Engineer, implementing various features for dashboards, designing event-driven system to get, analyze and store data, deploying variuos applications on the cloud.",
       skills: ["ETL", "AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
     },
     {
       name: "Sanjagh",
       place: "Tehran, Iran (remote)",
-      date: "Aug, 2020 - Present",
-      position: "Data Scientist",
+      date: "Dec, 2018 - Dec, 2019",
+      position: "Data Scientist/Engineer",
       description:
         "Automating and analyzing marketing reports, fraud detection.",
       skills: ["MongoDB", "SQL", "Pandas", "Python", "Neo4j"]
@@ -39,7 +48,7 @@ let info = {
     {
       name: "Razi Bandar",
       place: "Tehran, Iran",
-      date: "Sept, 2019 - Aug, 2020",
+      date: "Dec, 2017 - Nov, 2018",
       position: "Machine Learning Engineer",
       description:
         "Automated defect detection in sewer closed-circuit television inspections.",
@@ -48,7 +57,7 @@ let info = {
     {
       name: "Rahnema College",
       place: "Tehran, Iran",
-      date: "Jan, 2020 - Mar, 2020",
+      date: "Sep, 2017 - Nov, 2017",
       position: "Machine Learning Intern",
       description:
         "Implementing ML algorithms for some real problems.",
@@ -57,7 +66,7 @@ let info = {
     {
       name: "Zarrin",
       place: "Tehran, Iran",
-      date: "May, 2016 - July, 2016",
+      date: "Mar, 2017 - Aug, 2017",
       position: "Software Developer Intern",
       description:
         "Collaboration in website development.",
