@@ -20,7 +20,7 @@ let info = {
   experience: [
     {
       name: "Datrick",
-      place: "Istanbul, Turkey",
+      place: "Istanbul, Turkey (remote)",
       date: "Apr, 2021 - Present",
       position: "Data Engineer",
       description:
