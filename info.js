@@ -24,7 +24,7 @@ let info = {
       date: "Apr, 2021 - Present",
       position: "Data Engineer",
       description:
-        "Implemented ETL pipelines using Apache Airflow and GCP.",
+        "Build, maintain, and monitor batch ETL pipelines in a hybrid Google Cloud Platform architecture (BigQuery, Google Cloud functions, etc.) and Apache Airflow. Provide day-to-day support of the DW and DL environments.",
       skills: ["ETL", "GCP", "BigQuery", "Apache Airflow"]
     },
     {
@@ -33,7 +33,7 @@ let info = {
       date: "Jan, 2020 - Present",
       position: "Data Engineer",
       description:
-        "Worked as a Data Engineer, implementing various features for dashboards, designing event-driven system to get, analyze and store data, deploying variuos applications on the cloud.",
+        "Develop and maintain ETL jobs within AWS architecture (AWS Glue, Redshift, S3, Sagemaker, Lambda, etc.). Processing jobs orchestration using Apache Airflow. Implement CI/CD pipelines. Design dashboards (Apache Superset, Zoho, Grafana)",
       skills: ["ETL", "AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
     },
     {
@@ -42,16 +42,16 @@ let info = {
       date: "Dec, 2018 - Dec, 2019",
       position: "Data Scientist/Engineer",
       description:
-        "Automating and analyzing marketing reports, fraud detection.",
+        "Fraud detection. Create and automate marketing reports (e.g. conversion calculation).",
       skills: ["MongoDB", "SQL", "Pandas", "Python", "Neo4j"]
     },
     {
-      name: "Razi Bandar",
+      name: "RadBonyan",
       place: "Tehran, Iran",
       date: "Dec, 2017 - Nov, 2018",
       position: "Machine Learning Engineer",
       description:
-        "Automated defect detection in sewer closed-circuit television inspections.",
+        "Defect detection in sewer closed-circuit television (CCTV) inspections using deep convolutional neural networks (data annotation, training, creating the desktop app)",
       skills: ["Keras", "OpenCV", "Pytorch", "PyQt5"]
     },
     {
@@ -113,7 +113,7 @@ let info = {
     },
     {
       title: "databases",
-      info: ["AWS Redshift", "MongoDB", "PostgreSQL", "Neo4j"],
+      info: ["AWS Redshift", "BigQuery", "MongoDB", "PostgreSQL", "Neo4j"],
       icon: "fa fa-database"
     },
     {
@@ -124,6 +124,7 @@ let info = {
         "JIRA",
         "Bitbucket",
         "AWS",
+        "GCP",
         "Swagger",
       ],
       icon: "fas fa-tools"
