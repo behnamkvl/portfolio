@@ -21,25 +21,25 @@ let info = {
     {
       name: "Datrick",
       place: "Istanbul, Turkey (remote)",
-      date: "Apr, 2021 - Present",
+      date: "October, 2021 - Present",
       position: "Data Engineer",
       description:
         "Build, maintain, and monitor batch ETL pipelines in a hybrid Google Cloud Platform architecture (BigQuery, Google Cloud functions, etc.) and Apache Airflow. Provide day-to-day support of the DW and DL environments.",
       skills: ["ETL", "GCP", "BigQuery", "Apache Airflow"]
     },
-    {
-      name: "eBuyNow",
-      place: "Victoria, Canada (remote)",
-      date: "Jan, 2020 - Present",
-      position: "Data Engineer",
-      description:
-        "Develop and maintain ETL jobs within AWS architecture (AWS Glue, Redshift, S3, Sagemaker, Lambda, etc.). Processing jobs orchestration using Apache Airflow. Implement CI/CD pipelines. Design dashboards (Apache Superset, Zoho, Grafana)",
-      skills: ["ETL", "AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
-    },
+    // {
+    //   name: "eBuyNow",
+    //   place: "Victoria, Canada (remote)",
+    //   date: "October, 2020 - Present",
+    //   position: "Data Engineer",
+    //   description:
+    //     "Develop and maintain ETL jobs within AWS architecture (AWS Glue, Redshift, S3, Sagemaker, Lambda, etc.). Processing jobs orchestration using Apache Airflow. Implement CI/CD pipelines. Design dashboards (Apache Superset, Zoho, Grafana)",
+    //   skills: ["ETL", "AWS Redshift", "AWS Glue", "PySpark", "Apache Airflow", "CI/CD", "Docker", "Django", "Vue.js", "NGINX"]
+    // },
     {
       name: "Sanjagh",
       place: "Tehran, Iran (remote)",
-      date: "Dec, 2018 - Dec, 2019",
+      date: "September, 2020 - October, 2021",
       position: "Data Scientist/Engineer",
       description:
         "Fraud detection. Create and automate marketing reports (e.g. conversion calculation).",
@@ -48,7 +48,7 @@ let info = {
     {
       name: "RadBonyan",
       place: "Tehran, Iran",
-      date: "Dec, 2017 - Nov, 2018",
+      date: "November, 2019 - September, 2020",
       position: "Machine Learning Engineer",
       description:
         "Defect detection in sewer closed-circuit television (CCTV) inspections using deep convolutional neural networks (data annotation, training, creating the desktop app)",
@@ -57,7 +57,7 @@ let info = {
     {
       name: "Rahnema College",
       place: "Tehran, Iran",
-      date: "Sep, 2017 - Nov, 2017",
+      date: "December, 2019 - February, 2020",
       position: "Machine Learning Intern",
       description:
         "Implementing ML algorithms for some real problems.",
@@ -66,7 +66,7 @@ let info = {
     {
       name: "Zarrin",
       place: "Tehran, Iran",
-      date: "Mar, 2017 - Aug, 2017",
+      date: "March, 2018 - September, 2018",
       position: "Software Developer Intern",
       description:
         "Collaboration in website development.",
@@ -77,7 +77,7 @@ let info = {
     {
       name: "Iran University of Science and Technology",
       place: "Iran",
-      date: "Aug, 2015 - Feb, 2018",
+      date: "September, 2017 - March, 2018",
       degree: "Master of Science in Electrical Engineering",
     },
     {
