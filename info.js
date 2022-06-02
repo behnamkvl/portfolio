@@ -19,9 +19,18 @@ let info = {
   },
   experience: [
     {
+      name: "Infinity Works (part of Accenture)",
+      place: "Birmingham, UK",
+      date: "March, 2022 - Present",
+      position: "Consultant Data Engineer",
+      description:
+        "Data Engineering Academy instructor.",
+      skills: ["Python", "unit-testing", "GCP", "Terraform"]
+    },
+    {
       name: "Datrick",
       place: "Istanbul, Turkey (remote)",
-      date: "October, 2021 - Present",
+      date: "October, 2021 - March 2022",
       position: "Data Engineer",
       description:
         "Build, maintain, and monitor batch ETL pipelines in a hybrid Google Cloud Platform architecture (BigQuery, Google Cloud functions, etc.) and Apache Airflow. Provide day-to-day support of the DW and DL environments.",
